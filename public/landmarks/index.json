@@ -4,5 +4,210 @@
   1500,
   5000
  ],
- "landmarks": []
+ "blender": "Blender 5.2.1",
+ "landmarks": [
+  {
+   "slug": "washington-monument",
+   "name": "Washington Monument",
+   "anchor": [
+    582.989,
+    -1630.385
+   ],
+   "ground": 12.07,
+   "lods": [
+    {
+     "name": "washington-monument_lod0.glb",
+     "triangles": 118,
+     "meshes": 2,
+     "sha256": "340f9cbcaaa1c22df30aa30aae89acc6f5aa84d8ba5652e1c9ea89239dc25530"
+    },
+    {
+     "name": "washington-monument_lod1.glb",
+     "triangles": 70,
+     "meshes": 2,
+     "sha256": "7c96d1790ddd3b71cdf405bfa4000bca8355e409cfa9f6a21baa251421f66536"
+    },
+    {
+     "name": "washington-monument_lod2.glb",
+     "triangles": 24,
+     "meshes": 1,
+     "sha256": "0a3510fb467e7705eb77815e2ed8ba234270c14a7060185f58c49bd51b74ee5f"
+    }
+   ]
+  },
+  {
+   "slug": "capitol",
+   "name": "United States Capitol",
+   "anchor": [
+    2859.91,
+    -1617.461
+   ],
+   "ground": 19.77,
+   "lods": [
+    {
+     "name": "capitol_lod0.glb",
+     "triangles": 2626,
+     "meshes": 4,
+     "sha256": "cee003fc08b5d15ec1f0684d131f957e2ce075b4e08ab2efd5eea797b6f2e502"
+    },
+    {
+     "name": "capitol_lod1.glb",
+     "triangles": 1266,
+     "meshes": 4,
+     "sha256": "c73d8930d7e436a64c937b26f45dab4b95c568ced1b4f1ef35a2cfe669ecfa5f"
+    },
+    {
+     "name": "capitol_lod2.glb",
+     "triangles": 619,
+     "meshes": 3,
+     "sha256": "dc446c5821690ac7308b39011e0203c78b94342bdcb4bd85557620d9067ed7d3"
+    }
+   ]
+  },
+  {
+   "slug": "lincoln-memorial",
+   "name": "Lincoln Memorial",
+   "anchor": [
+    -712.464,
+    -1636.836
+   ],
+   "ground": 14.95,
+   "lods": [
+    {
+     "name": "lincoln-memorial_lod0.glb",
+     "triangles": 1495,
+     "meshes": 2,
+     "sha256": "91e3bcfe343964663fc71714f60ec1fe1572e05739023f9b82bdcecc1da1db26"
+    },
+    {
+     "name": "lincoln-memorial_lod1.glb",
+     "triangles": 271,
+     "meshes": 2,
+     "sha256": "d21a8c7d4af048f163161129462179b6e636f45611f9c4458d0ef9f521fec645"
+    },
+    {
+     "name": "lincoln-memorial_lod2.glb",
+     "triangles": 48,
+     "meshes": 1,
+     "sha256": "e9d6cf9018a04d6970476b47f66ebd74baad7191d1a19905cdf07b6167b1bd6e"
+    }
+   ]
+  },
+  {
+   "slug": "jefferson-memorial",
+   "name": "Thomas Jefferson Memorial",
+   "anchor": [
+    449.572,
+    -739.111
+   ],
+   "ground": 3.11,
+   "lods": [
+    {
+     "name": "jefferson-memorial_lod0.glb",
+     "triangles": 2042,
+     "meshes": 3,
+     "sha256": "8a1252e41e891c5c56818db84014d24c5302a0098ae56a8d2a9a8adc95421b85"
+    },
+    {
+     "name": "jefferson-memorial_lod1.glb",
+     "triangles": 558,
+     "meshes": 3,
+     "sha256": "54c960bd6838e387587359e06815f10a41084b004098632e2d003d8c8fd0ccf8"
+    },
+    {
+     "name": "jefferson-memorial_lod2.glb",
+     "triangles": 350,
+     "meshes": 3,
+     "sha256": "9257136bb35de68071ec28f6c4be45441daee31d45373fcb25410bb7a2ca9f28"
+    }
+   ]
+  },
+  {
+   "slug": "kennedy-center",
+   "name": "Kennedy Center",
+   "anchor": [
+    -1180.409,
+    -2383.465
+   ],
+   "ground": -0.05,
+   "lods": [
+    {
+     "name": "kennedy-center_lod0.glb",
+     "triangles": 1440,
+     "meshes": 4,
+     "sha256": "f1877aa71ff9ef8de551dd5298a1ba03a5d2338f2e70b5665562d282a36bb152"
+    },
+    {
+     "name": "kennedy-center_lod1.glb",
+     "triangles": 48,
+     "meshes": 3,
+     "sha256": "5f4a87dcf2e79a2f216657ade66d0fadf363a180069c8ff0faa9b758016276eb"
+    },
+    {
+     "name": "kennedy-center_lod2.glb",
+     "triangles": 36,
+     "meshes": 2,
+     "sha256": "b8fcf21efbe1099b108745ce02e5c968247c81be142ac813bda24c458e6a9a98"
+    }
+   ]
+  },
+  {
+   "slug": "key-bridge",
+   "name": "Francis Scott Key Bridge",
+   "anchor": [
+    -2374.673,
+    -3163.255
+   ],
+   "ground": 0,
+   "lods": [
+    {
+     "name": "key-bridge_lod0.glb",
+     "triangles": 3756,
+     "meshes": 1,
+     "sha256": "d506743a571bc05a37d527c231bf13c98a26e9aaa9106ccc4c966205750aa16d"
+    },
+    {
+     "name": "key-bridge_lod1.glb",
+     "triangles": 1644,
+     "meshes": 1,
+     "sha256": "5a16617b6eb7c3992aed47797777d5d0dd52f79320d9927d0370444678a0da49"
+    },
+    {
+     "name": "key-bridge_lod2.glb",
+     "triangles": 448,
+     "meshes": 1,
+     "sha256": "bf4a156f302fd5105e0da74569bf08fc404399f6859647eaf9acea063f6c6ad2"
+    }
+   ]
+  },
+  {
+   "slug": "memorial-bridge",
+   "name": "Arlington Memorial Bridge",
+   "anchor": [
+    -1173.338,
+    -1434.519
+   ],
+   "ground": 0,
+   "lods": [
+    {
+     "name": "memorial-bridge_lod0.glb",
+     "triangles": 1872,
+     "meshes": 1,
+     "sha256": "eb22825c0d895ba61deba39dcc5256a362d863502e5b9f4f47828055363057fb"
+    },
+    {
+     "name": "memorial-bridge_lod1.glb",
+     "triangles": 1008,
+     "meshes": 1,
+     "sha256": "c2c5a46e1223db2990fb5662fff13388f8acf0efd8e927027d5fead642a1fabd"
+    },
+    {
+     "name": "memorial-bridge_lod2.glb",
+     "triangles": 576,
+     "meshes": 1,
+     "sha256": "809487c74a56c5c2a5bd0147ea03e4e13e75f72a15b11c32090030aee5b0d839"
+    }
+   ]
+  }
+ ]
 }

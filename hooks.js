@@ -5,7 +5,4 @@
 //   waterBodies( kit )         still pools and the tidal basin for the water mask
 export { shapeTerrain, waterBodies } from './pipelines/terrain.mjs';
 export { collectBuildings } from './pipelines/buildings.mjs';
-
-export function prepareLandmarks() {
-  return { note: 'placeholder: no landmarks', landmarks: [] };
-}
+export { prepareLandmarks } from './pipelines/landmarks/prepare.mjs';
