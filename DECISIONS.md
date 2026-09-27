@@ -30,9 +30,9 @@ New decisions:
 - **D12** Vessel: *Potomac Taxi I* (Potomac Riverboat Co. / City Cruises), one of four BMT-designed Metal Shark
   aluminium catamarans on the Wharf–Georgetown water taxi: 88 ft (26.8 m) LOA, 149 passengers, 24 kn, twin Scania
   DI13 with propellers (Metal Shark 2017-10-16 release; WorkBoat; PropTalk). Beam 7 m from its AIS record
-  (VesselFinder, MMSI 368006220). Draft is not published: **estimated 1.5 m** (props below the demihulls of a
-  27 m passenger cat), demihull 1.8 m wide on 5.2 m centres, main deck 1.9 m, loaded displacement 62 t (all
-  estimates, logged here).
+  (VesselFinder, MMSI 368006220). Not published, so **estimated** (logged here): draft 1.5 m (props below the
+  demihulls of a 27 m passenger cat), demihulls 1.8 m wide on 5.2 m centres, main deck 1.6 m above the waterline,
+  air draft 4.6 m (the boats pass under the 14th Street bridges, charted 5.4 m over MHW), loaded displacement 62 t.
 - **D13** Buildings: DC GIS *Buildings – 3D* (Facility_and_Structure/MapServer/2, LiDAR multipatch with
   MAX_Z / MEDIAN_Z = height above ground; CC BY 4.0) decoded to footprints + heights, because the footprint layer
   has no height and the DC surface models are published only as rendered map services. Inside the Secret Service
@@ -51,3 +51,12 @@ New decisions:
   its deck line against the charted NOAA outline (no open source publishes its pier positions, so the model
   spaces its seven arches evenly over the river); the Wharf pier against DC's 2023 planimetric "Dock or Pier"
   lines (harbour-scale charts predate the 2017 Wharf piers).
+- **D18** The water-taxi route runs from the Georgetown landing (Washington Harbour, downstream of Key Bridge) round
+  Hains Point to the Wharf, as the real boats do, under Roosevelt, Memorial and the 14th Street bridges. Key Bridge
+  lies upstream of the Georgetown stop, so G4 checks its charted span (18.5 m) against the vessel for the free
+  helm instead. Berths: the nearest point to each OSM landing with draft + 1.5 m of water within half a hull length.
+- **D19** Engine changes for a 27 m hull (Harbor Engine, back-compatible: factors are 1 for the SF ferry and its G4
+  is unchanged at 18 min): superstructure tiers only under the air draft; physics forces scaled by mass, inertia by
+  mass × length²; the autopilot slows for corners (1.5 m/s for a hairpin — the hull's yaw damping grows with
+  speed) and pivots with differential twin thrust below 4 m/s; the planner avoids charted piers and structures
+  lower than the air draft + 1 m.

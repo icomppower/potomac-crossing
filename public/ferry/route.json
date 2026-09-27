@@ -1,38 +1,54 @@
 {
  "from": {
-  "stopId": "A",
-  "name": "Georgetown (Washington Harbour)",
-  "x": 1267.2,
-  "z": 0
+  "stopId": "osm6746921997",
+  "name": "Georgetown Ferry Landing",
+  "x": -1634.523,
+  "z": -3004.177
  },
  "to": {
-  "stopId": "B",
-  "name": "The Wharf",
-  "x": -1267.2,
-  "z": 0
+  "stopId": "osm6746921958",
+  "name": "The Wharf Ferry Landing",
+  "x": 1312.134,
+  "z": -533.884
  },
  "rules": {
   "draft": 1.5,
-  "placeholder": true
+  "depthOpen": 2.97,
+  "depthBerth": 2,
+  "berthZone": 150,
+  "cell": 6,
+  "datum": "MSL (NAVD88 + 0.047 m, NOAA 8594900); open water also holds at MLLW"
  },
  "waypoints": [
   [
-   1267.2,
-   0
+   -1634.52,
+   -3004.18
   ],
   [
-   950.4,
-   1108.8
+   -903,
+   -1065
   ],
   [
-   -950.4,
-   1108.8
+   1647,
+   2361
   ],
   [
-   -1267.2,
-   0
+   1833,
+   2121
+  ],
+  [
+   1629,
+   171
+  ],
+  [
+   1245,
+   -453
+  ],
+  [
+   1312.13,
+   -533.88
   ]
  ],
- "length": 4207.14,
- "minDepthAlong": 0
+ "length": 9445.48,
+ "minDepthAlong": 3.05
 }

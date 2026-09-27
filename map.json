@@ -126,15 +126,16 @@
   "controlPoints": [],
   "vessel": {
     "name": "Potomac Taxi I",
-    "source": "Metal Shark 2017-10-16; WorkBoat; PropTalk (88 ft, 149 pax, 24 kn); AIS beam 7 m (VesselFinder MMSI 368006220); draft, hulls, deck, mass estimated (DECISIONS D12)",
+    "source": "Metal Shark 2017-10-16; WorkBoat; PropTalk (88 ft, 149 pax, 24 kn); AIS beam 7 m (VesselFinder MMSI 368006220); draft, hulls, deck, air draft, mass estimated (DECISIONS D12)",
     "length": 26.8,
     "beam": 7,
     "draft": 1.5,
     "topSpeedKn": 24,
     "hullWidth": 1.8,
     "hullSpacing": 5.2,
-    "deckY": 1.9,
-    "mass": 62000
+    "deckY": 1.6,
+    "mass": 62000,
+    "airDraft": 4.6
   },
   "route": {
     "file": "ferry/route.json",
@@ -150,7 +151,9 @@
         "MSL": 1.859,
         "MLLW": 1.387
       },
-      "datumNote": "MSL (NAVD88 + 0.047 m, NOAA 8594900); open water also holds at MLLW"
+      "datumNote": "MSL (NAVD88 + 0.047 m, NOAA 8594900); open water also holds at MLLW",
+      "pylons": "noaa-enc-pylons.json",
+      "structures": true
     }
   },
   "landmarks": [
@@ -411,26 +414,26 @@
   },
   "layout": {
     "anchorUTM": [
-      321401.3,
-      4307901.2
+      321274.5,
+      4307860.2
     ],
     "pier": {
-      "dx": -14,
-      "dzStart": -30,
-      "dzEnd": 30,
+      "dx": 0,
+      "dzStart": -22,
+      "dzEnd": 6,
       "deckHeight": 2,
-      "width": 6,
-      "headWidth": 10,
-      "headDepth": 5
+      "width": 5,
+      "headWidth": 9,
+      "headDepth": 4
     },
     "boatDock": {
       "dx": 0,
-      "dz": 18,
-      "heading": 0
+      "dz": 15,
+      "heading": 0.354
     },
     "start": {
-      "dx": 809.8,
-      "dz": 1417.4,
+      "dx": 936.6,
+      "dz": 1376.3,
       "yaw": -1.5707963267948966
     }
   },
