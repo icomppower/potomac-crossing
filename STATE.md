@@ -12,8 +12,12 @@
 | G5 M4 budget | PASS | 2026-09-27 | 53.7 fps p95 @1080p low (floor 43 frozen), GPU memory 680 MB (cap 851), 0 swap-outs; 3/3 negatives |
 | G6 Baseline-GPU compile | PASS | 2026-09-27 | low/mobile/high × taxi/fly at WebGPU default limits: 0 failed pipelines (incl. the new water-level texture); 6/6 negatives |
 | G7 Reflections | PASS | 2026-09-27 | night: Reflecting Pool reflection 61.8 (threshold 31.6 frozen, 1.4 without reflections), Potomac 39.2 (33.0, 26.8 without); floodlit Monument / Kennedy Center; 1/1 negative |
-| G8 Look (advisory) | — | — | |
+| G8 Look (advisory) | PASS | 2026-09-27 | advisory: shots/golden-hour-lincoln-steps.png, blue-hour-tidal-basin.png, night-potomac.png for owner review |
 
 ## Current
 
-Bootstrapped 2026-09-26 with `new-title` (placeholder island data). Next: G0.
+**DONE (2026-09-27).** G0–G7 green in one clean `./verify.sh` run (G8 advisory green). Next per SPEC §8: owner look
+session on shots/ and the live site. Known look gaps: the Mall elms and Tidal Basin cherries are downloaded (G0)
+but no tree renderer exists yet; landmark detail is massing only. The live site needs harbor-engine's DC changes
+released (they are committed on harbor-engine main, not pushed/tagged: pushing was denied in this session) and
+package.json pinned to that release.

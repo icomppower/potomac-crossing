@@ -13,3 +13,5 @@
 | 2026-09-27 | G5 | PASS | 53.7 fps p95 @1080p low (floor 43 frozen), GPU memory 680 MB (cap 851), 0 swap-outs; 3/3 negatives |
 | 2026-09-27 | G6 | PASS | low/mobile/high × taxi/fly at WebGPU default limits: 0 failed pipelines (incl. the new water-level texture); 6/6 negatives |
 | 2026-09-27 | G7 | PASS | night: Reflecting Pool reflection 61.8 (threshold 31.6 frozen, 1.4 without reflections), Potomac 39.2 (33.0, 26.8 without); floodlit Monument / Kennedy Center; 1/1 negative |
+| 2026-09-27 | G8 | PASS | advisory: shots/golden-hour-lincoln-steps.png, blue-hour-tidal-basin.png, night-potomac.png for owner review |
+| 2026-09-27 | DONE | PASS | G0–G7 green in one clean run (G8 advisory) |
