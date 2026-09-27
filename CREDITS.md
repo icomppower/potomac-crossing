@@ -33,3 +33,19 @@ Technology Officer), CC BY 4.0.**
   (wharfdc.com/getting-here/water-taxi); City Cruises, *Potomac Water Taxi*.
 - Vessel (*Potomac Taxi I*): Metal Shark press release 2017-10-16; WorkBoat, *Metal Shark delivers four water taxis to
   D.C.*; PropTalk; AIS record on VesselFinder (MMSI 368006220). See DECISIONS.md D12.
+
+## Landmarks (published dimensions used by `pipelines/landmarks/build.py`)
+
+Exterior massing only, public-view detail (D4). Positions and outlines: OpenStreetMap (ODbL) and Open Data DC
+(CC BY 4.0); bridge piers: NOAA ENC pylons; clearances: NOAA ENC.
+
+- Washington Monument: 555 ft 5⅛ in (169.29 m); shaft 55 ft 1½ in square at the base, 34 ft 5⅝ in at 500 ft;
+  pyramidion 55 ft (National Park Service; NGS 2013 survey).
+- United States Capitol: 751 ft × 350 ft; dome 96 ft across the outer shell; 288 ft to the top of the Statue of
+  Freedom (Architect of the Capitol).
+- Lincoln Memorial: colonnade 189.7 ft × 118.5 ft, 36 Doric columns 44 ft high, 7.5 ft at the base; almost 100 ft
+  high (National Park Service).
+- Thomas Jefferson Memorial: 26 Ionic columns 41 ft high; the dome rises 129 ft (National Park Service).
+- Kennedy Center: roof and plaza heights from the Open Data DC LiDAR buildings (layer 2).
+- Francis Scott Key Bridge: 1,781 ft, seven open-spandrel concrete arches; charted clearance 18.5 m (NOAA ENC).
+- Arlington Memorial Bridge: 2,163 ft, nine spans (the centre one a former bascule); piers from NOAA ENC.
