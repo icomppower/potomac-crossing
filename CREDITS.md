@@ -2,8 +2,8 @@
 
 Built on [Harbor Engine](https://github.com/icomppower/harbor-engine) (MIT), itself built on
 [Tidewater](https://github.com/dgreenheck/tidewater) by Daniel Greenheck (MIT); the engine credits its runtime
-assets (cloud noise, CC0 audio) in its own CREDITS.md. The method and pipelines come from
-[SF Bay Crossing](https://github.com/icomppower/bay-crossing).
+assets (cloud noise, CC0 audio) in its own CREDITS.md. The data method and pipelines are the
+engine's (see its `docs/ENGINE.md`).
 
 ## Data
 

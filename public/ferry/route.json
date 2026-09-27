@@ -1,14 +1,14 @@
 {
  "from": {
   "stopId": "A",
-  "name": "East dock",
-  "x": 576,
+  "name": "Georgetown (Washington Harbour)",
+  "x": 1267.2,
   "z": 0
  },
  "to": {
   "stopId": "B",
-  "name": "West dock",
-  "x": -576,
+  "name": "The Wharf",
+  "x": -1267.2,
   "z": 0
  },
  "rules": {
@@ -17,22 +17,22 @@
  },
  "waypoints": [
   [
-   576,
+   1267.2,
    0
   ],
   [
-   432,
-   503.99999999999994
+   950.4,
+   1108.8
   ],
   [
-   -432,
-   503.99999999999994
+   -950.4,
+   1108.8
   ],
   [
-   -576,
+   -1267.2,
    0
   ]
  ],
- "length": 1912.34,
+ "length": 4207.14,
  "minDepthAlong": 0
 }
