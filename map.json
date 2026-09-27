@@ -96,6 +96,12 @@
       "file": "noaa-enc-pylons.json",
       "licence": "Public domain (US Government work, NOAA Office of Coast Survey)",
       "url": "https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html"
+    },
+    {
+      "id": "noaa-enc-bridges",
+      "file": "noaa-enc-bridges.json",
+      "licence": "Public domain (US Government work, NOAA Office of Coast Survey)",
+      "url": "https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html"
     }
   ],
   "terrain": {

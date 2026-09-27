@@ -25,6 +25,7 @@ Technology Officer), CC BY 4.0.**
 | `naip-core.tif` | USDA NAIP aerial orthoimagery (natural colour, 2 m resample) over the Mall / waterfront core, for roof colours (1 m exceeds the service size limit) | Public domain (US Government work, USDA Farm Service Agency NAIP) |
 | `noaa-enc-landmarks.json` | NOAA Electronic Navigational Charts (ENC Direct, harbour scale): charted landmarks — Washington Monument, Capitol dome | Public domain (US Government work, NOAA Office of Coast Survey) |
 | `noaa-enc-pylons.json` | NOAA Electronic Navigational Charts (ENC Direct, harbour scale): bridge pylon / pier areas (Key Bridge, Memorial Bridge and the other Potomac crossings) | Public domain (US Government work, NOAA Office of Coast Survey) |
+| `noaa-enc-bridges.json` | NOAA Electronic Navigational Charts (ENC Direct, harbour scale): bridge areas with charted vertical / horizontal clearances (Key Bridge, Roosevelt Bridge, the 14th Street bridges …) | Public domain (US Government work, NOAA Office of Coast Survey) |
 
 ## Facts cited (not redistributed)
 

@@ -142,6 +142,11 @@ export const SOURCES = [
     title: 'NOAA Electronic Navigational Charts (ENC Direct, harbour scale): bridge pylon / pier areas (Key Bridge, Memorial Bridge and the other Potomac crossings)',
     url: `https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/149/query?` + new URLSearchParams({ geometry: `${B.west},${B.south},${B.east},${B.north}`, geometryType: 'esriGeometryEnvelope', inSR: '4326', outSR: '4326', outFields: '*', returnGeometry: 'true', orderByFields: 'OBJECTID', f: 'json' }),
   },
+  {
+    file: 'noaa-enc-bridges.json', key: 'noaa-enc-bridges', ...USPD('NOAA Office of Coast Survey', 'https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html'),
+    title: 'NOAA Electronic Navigational Charts (ENC Direct, harbour scale): bridge areas with charted vertical / horizontal clearances (Key Bridge, Roosevelt Bridge, the 14th Street bridges …)',
+    url: `https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/141/query?` + new URLSearchParams({ geometry: `${B.west},${B.south},${B.east},${B.north}`, geometryType: 'esriGeometryEnvelope', inSR: '4326', outSR: '4326', outFields: '*', returnGeometry: 'true', orderByFields: 'OBJL', f: 'json' }),
+  },
 ];
 
 if (isMain(import.meta.url)) await fetchSources(SOURCES, { userAgent: 'potomac-crossing-data-fetch/1.0' });

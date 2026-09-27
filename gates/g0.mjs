@@ -112,6 +112,9 @@ function check(dir, credits, report = null) {
   req(enc.some(f => f.attributes.OBJNAM === 'Washington Monument'), 'noaa-enc-landmarks: no Washington Monument');
   req(enc.some(f => f.attributes.CATLMK === 'dome' && Math.abs(f.geometry.x + 77.009) < 0.002), 'noaa-enc-landmarks: no Capitol dome');
   req((json('noaa-enc-pylons.json').features || []).length >= 4, 'noaa-enc-pylons: fewer than 4 bridge piers');
+  const brg = json('noaa-enc-bridges.json').features || [];
+  req(brg.some(f => f.attributes.OBJNAM === 'Key Bridge' && f.attributes.VERCLR > 10), 'noaa-enc-bridges: no Key Bridge with a charted vertical clearance');
+  req(brg.filter(f => f.attributes.VERCLR > 0).length >= 5, 'noaa-enc-bridges: fewer than 5 bridges with charted clearances');
 
   // 8. NAIP imagery: 3 bands, the box asked for, not blank
   for (const [file, b, cell] of [['naip-dc.tif', NAIP_ALL, 4], ['naip-core.tif', naipBox(CORE), 2]]) {
