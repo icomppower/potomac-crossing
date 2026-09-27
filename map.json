@@ -437,7 +437,99 @@
       "yaw": -1.5707963267948966
     }
   },
-  "places": [],
+  "places": [
+    {
+      "name": "Washington Monument",
+      "x": 583,
+      "z": -1630,
+      "model": true,
+      "r": 40,
+      "waypoint": 2
+    },
+    {
+      "name": "Lincoln Memorial",
+      "x": -712,
+      "z": -1637,
+      "model": true,
+      "waypoint": 0
+    },
+    {
+      "name": "United States Capitol",
+      "x": 2860,
+      "z": -1617,
+      "model": true,
+      "r": 120,
+      "waypoint": 4
+    },
+    {
+      "name": "Jefferson Memorial",
+      "x": 450,
+      "z": -739,
+      "model": true,
+      "waypoint": 3
+    },
+    {
+      "name": "Kennedy Center",
+      "x": -1180,
+      "z": -2383,
+      "model": true,
+      "r": 120,
+      "waypoint": 5
+    },
+    {
+      "name": "Key Bridge",
+      "x": -2375,
+      "z": -3163,
+      "model": true,
+      "r": 260,
+      "waypoint": 8
+    },
+    {
+      "name": "Arlington Memorial Bridge",
+      "x": -1173,
+      "z": -1435,
+      "model": true,
+      "r": 330
+    },
+    {
+      "name": "Reflecting Pool",
+      "x": -84,
+      "z": -1636,
+      "waypoint": 1
+    },
+    {
+      "name": "Tidal Basin",
+      "x": 246,
+      "z": -1048
+    },
+    {
+      "name": "White House",
+      "x": 490,
+      "z": -2544
+    },
+    {
+      "name": "Theodore Roosevelt Island",
+      "x": -1938,
+      "z": -2445
+    },
+    {
+      "name": "Arlington House",
+      "x": -2684,
+      "z": -896
+    },
+    {
+      "name": "Georgetown Waterfront",
+      "x": -1533,
+      "z": -3069,
+      "waypoint": 6
+    },
+    {
+      "name": "The Wharf",
+      "x": 1394,
+      "z": -449,
+      "waypoint": 7
+    }
+  ],
   "waypoints": [
     {
       "name": "Lincoln Memorial steps",
