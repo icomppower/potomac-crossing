@@ -1,0 +1,38 @@
+{
+ "from": {
+  "stopId": "A",
+  "name": "East dock",
+  "x": 576,
+  "z": 0
+ },
+ "to": {
+  "stopId": "B",
+  "name": "West dock",
+  "x": -576,
+  "z": 0
+ },
+ "rules": {
+  "draft": 1.5,
+  "placeholder": true
+ },
+ "waypoints": [
+  [
+   576,
+   0
+  ],
+  [
+   432,
+   503.99999999999994
+  ],
+  [
+   -432,
+   503.99999999999994
+  ],
+  [
+   -576,
+   0
+  ]
+ ],
+ "length": 1912.34,
+ "minDepthAlong": 0
+}

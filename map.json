@@ -1,0 +1,175 @@
+{
+  "id": "potomac-crossing",
+  "name": "Potomac Crossing",
+  "frame": {
+    "crs": "EPSG:32618 (WGS84 / UTM zone 18N), metres; heights local MSL (NOAA 8594900)",
+    "utmZone": 18,
+    "hemisphere": "N",
+    "originE": 323000,
+    "originN": 4306350,
+    "size": 6600
+  },
+  "bbox": {
+    "south": 38.868,
+    "west": -77.08,
+    "north": 38.9275,
+    "east": -77.0035
+  },
+  "slice": {
+    "extent": {
+      "minE": 319700,
+      "minN": 4303050,
+      "maxE": 326300,
+      "maxN": 4309650
+    },
+    "note": "Key Bridge / Rosslyn to the Capitol, Georgetown to the Wharf, the Arlington bank (D2, D11)"
+  },
+  "sources": [
+    {
+      "id": "placeholder",
+      "file": "",
+      "licence": "Procedural (Harbor Engine placeholder data)",
+      "url": ""
+    }
+  ],
+  "terrain": {
+    "land": "terrain-3dep.tif",
+    "sea": "bathy-ncei.tif",
+    "datum": "noaa-datums-8594900.json",
+    "datumStation": "8594900",
+    "aerial": "naip-dc.tif"
+  },
+  "controlPoints": [],
+  "vessel": {
+    "name": "Potomac Taxi I",
+    "source": "Metal Shark 2017-10-16; WorkBoat; PropTalk (88 ft, 149 pax, 24 kn); AIS beam 7 m (VesselFinder MMSI 368006220); draft, hulls, deck, mass estimated (DECISIONS D12)",
+    "length": 26.8,
+    "beam": 7,
+    "draft": 1.5,
+    "topSpeedKn": 24,
+    "hullWidth": 1.8,
+    "hullSpacing": 5.2,
+    "deckY": 1.9,
+    "mass": 62000
+  },
+  "route": {
+    "file": "ferry/route.json",
+    "schedule": "ferry/schedule.json",
+    "from": "Georgetown (Washington Harbour)",
+    "to": "The Wharf",
+    "source": "City Cruises / The Wharf: Potomac Water Taxi, Georgetown ↔ Wharf about 30 min"
+  },
+  "landmarks": [],
+  "water": {
+    "preset": "calm-river",
+    "swellDir": [
+      0.35,
+      1
+    ]
+  },
+  "sun": {
+    "latitude": 38.89,
+    "declination": -0.5
+  },
+  "palettes": {
+    "walls": {
+      "tower": [
+        [
+          150,
+          156,
+          162
+        ]
+      ],
+      "mid": [
+        [
+          182,
+          178,
+          170
+        ]
+      ],
+      "house": [
+        [
+          214,
+          206,
+          192
+        ]
+      ],
+      "pier": [
+        [
+          210,
+          200,
+          178
+        ]
+      ]
+    },
+    "roofs": {
+      "city": [
+        [
+          118,
+          116,
+          110
+        ]
+      ]
+    }
+  },
+  "layout": {
+    "anchorUTM": [
+      321401.3,
+      4307901.2
+    ],
+    "pier": {
+      "dx": -14,
+      "dzStart": -30,
+      "dzEnd": 30,
+      "deckHeight": 2,
+      "width": 6,
+      "headWidth": 10,
+      "headDepth": 5
+    },
+    "boatDock": {
+      "dx": 0,
+      "dz": 18,
+      "heading": 0
+    },
+    "start": {
+      "dx": 809.8,
+      "dz": 1417.4,
+      "yaw": -1.5707963267948966
+    }
+  },
+  "places": [],
+  "waypoints": [
+    {
+      "name": "Island",
+      "eye": [
+        700,
+        60,
+        300
+      ],
+      "at": [
+        0,
+        20,
+        0
+      ]
+    }
+  ],
+  "ui": {
+    "title": "Potomac Crossing",
+    "brand": "POTOMAC CROSSING",
+    "autopilot": "Georgetown → The Wharf",
+    "autopilotHelp": "Sails the water-taxi route to the Wharf",
+    "howToPlay": "walk the National Mall from the Lincoln Memorial, loop the Tidal Basin, and ride the water taxi from Georgetown to the Wharf, by hand or with the autopilot (G)."
+  },
+  "capabilities": [
+    "water",
+    "vessel",
+    "route"
+  ],
+  "games": {
+    "default": "sightseeing",
+    "available": [
+      "sightseeing"
+    ]
+  },
+  "streaming": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "potomac-crossing",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify": "./verify.sh",
+    "placeholder-data": "node node_modules/harbor-engine/tools/placeholder/build.mjs",
+    "engine:update": "node node_modules/harbor-engine/bin/harbor-engine.mjs update"
+  },
+  "dependencies": {
+    "harbor-engine": "github:icomppower/harbor-engine#v1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}

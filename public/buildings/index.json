@@ -1,0 +1,28 @@
+{
+ "format": "bay-buildings/2",
+ "lodDistances": [
+  900,
+  2500
+ ],
+ "tileSpan": 600,
+ "frame": "BayFrame (x east, z south); node translation = tile centre",
+ "heights": {
+  "log": {
+   "placeholder": 0
+  },
+  "defaultHeight": 6,
+  "levelHeight": 3,
+  "maxSink": -2
+ },
+ "landmarkExclusions": [],
+ "colours": {
+  "walls": "typed palettes (D38)",
+  "roofs": null,
+  "naipMaxHeight": 40
+ },
+ "totals": {
+  "buildings": 0,
+  "triangles": 0
+ },
+ "files": []
+}

@@ -1,0 +1,38 @@
+# Decisions
+
+SPEC §3 (Notion), applied as written:
+
+- **D1** Base pinned (now: Harbor Engine v1.x via `new-title`, per the SPEC's 2026-09-26 update); never pull upstream Tidewater.
+- **D2** Run-1 slice: Lincoln Memorial → Capitol along the Mall; Tidal Basin loop; Potomac from Key Bridge
+  (Georgetown) to The Wharf; Arlington bank as distant low-LOD. Expand only after G6 is green.
+- **D3** Water taxi: procedural hull from published dimensions of a vessel on the route; cite the source.
+- **D4** Buildings extruded from footprint + height with stone/brick palettes (Height Act low-rise); landmarks
+  procedural or CC0, processed offline in Blender into 3 LODs: Washington Monument, Capitol, Lincoln Memorial,
+  Jefferson Memorial, Kennedy Center, Key Bridge, Arlington Memorial Bridge. Exterior massing only, public-view
+  detail; no interiors or security features.
+- **D5** Water presets: calm river (Potomac), still pool (Reflecting Pool, Tidal Basin): low fetch, small waves,
+  strong mirror reflections; ocean swell off.
+- **D6** Quality tiers `low` (M4, gated), `mobile`, `high` (reserved for PC).
+- **D7** Keep engine, sky, post, player, boat controller, TouchControls, pipelines, gates framework; replace data,
+  landmarks, vessel, ground palette.
+- **D8** CREDITS.md lists every source + licence (DC data CC BY 4.0: attribution required).
+- **D9** One Max 20x account; stop cleanly on the usage limit. **D10** Sessions started by the user; no auto-relaunch.
+- Owner (2026-09-26): name Potomac Crossing; cherry blossoms as a season toggle (default peak bloom), no extra
+  gate; no streaming in run 1.
+
+New decisions:
+
+- **D11** World frame: UTM 18N (EPSG:26918/32618 coordinates, WGS84), origin E 323000 N 4306350, 6.6 km square
+  (3 m grid, 2200², 11 × 11 tiles of 600 m): Key Bridge / Rosslyn to the Capitol, Georgetown to the Wharf and the
+  Arlington bank. Heights: local MSL at NOAA station 8594900 (Washington, DC).
+- **D12** Vessel: *Potomac Taxi I* (Potomac Riverboat Co. / City Cruises), one of four BMT-designed Metal Shark
+  aluminium catamarans on the Wharf–Georgetown water taxi: 88 ft (26.8 m) LOA, 149 passengers, 24 kn, twin Scania
+  DI13 with propellers (Metal Shark 2017-10-16 release; WorkBoat; PropTalk). Beam 7 m from its AIS record
+  (VesselFinder, MMSI 368006220). Draft is not published: **estimated 1.5 m** (props below the demihulls of a
+  27 m passenger cat), demihull 1.8 m wide on 5.2 m centres, main deck 1.9 m, loaded displacement 62 t (all
+  estimates, logged here).
+- **D13** Buildings: DC GIS *Buildings – 3D* (Facility_and_Structure/MapServer/2, LiDAR multipatch with
+  MAX_Z / MEDIAN_Z = height above ground; CC BY 4.0) decoded to footprints + heights, because the footprint layer
+  has no height and the DC surface models are published only as rendered map services. Inside the Secret Service
+  redaction (only ground returns kept) a building has no LiDAR height: OSM `height` / `building:levels`, else a
+  logged default, and every such building is logged (hooks.js).

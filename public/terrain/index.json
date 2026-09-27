@@ -1,0 +1,168 @@
+{
+ "format": "bay-terrain/1",
+ "size": 3000,
+ "res": 1000,
+ "texel": 3,
+ "tile": 200,
+ "tiles": 5,
+ "frame": "BayFrame: x east, z south, origin UTM 18N E 500000 N 4000000; row 0 = north edge",
+ "heights": "Int16LE centimetres above local MSL, zlib deflate",
+ "verticalDatum": "local MSL = NAVD88 + 0.000 m (NOAA station none, epoch placeholder)",
+ "sources": [
+  "placeholder (land)",
+  "placeholder (seabed)",
+  "placeholder (datum)"
+ ],
+ "files": [
+  {
+   "name": "t_0_0.bin",
+   "i": 0,
+   "j": 0,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_1_0.bin",
+   "i": 1,
+   "j": 0,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_2_0.bin",
+   "i": 2,
+   "j": 0,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_3_0.bin",
+   "i": 3,
+   "j": 0,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_4_0.bin",
+   "i": 4,
+   "j": 0,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_0_1.bin",
+   "i": 0,
+   "j": 1,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_1_1.bin",
+   "i": 1,
+   "j": 1,
+   "sha256": "ede57feb814c0003505f9d37677b2c1b350098b7a58effc62f1469bbe5742735"
+  },
+  {
+   "name": "t_2_1.bin",
+   "i": 2,
+   "j": 1,
+   "sha256": "f427ce7fc0b658658e70b25c711d36bb7145a55683108860c04c3c3b80c5e0e5"
+  },
+  {
+   "name": "t_3_1.bin",
+   "i": 3,
+   "j": 1,
+   "sha256": "6c0740abd65ae69229a69262c442e092dd4c22eaa695cb0e2ade49d44d1745b3"
+  },
+  {
+   "name": "t_4_1.bin",
+   "i": 4,
+   "j": 1,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_0_2.bin",
+   "i": 0,
+   "j": 2,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_1_2.bin",
+   "i": 1,
+   "j": 2,
+   "sha256": "3b73d7e7348e62138db163aaa1c103c4b54df2cf188bd94526797e83fd9a1be2"
+  },
+  {
+   "name": "t_2_2.bin",
+   "i": 2,
+   "j": 2,
+   "sha256": "5ed259935949eb232975cbe8c70469f37aca6f99491d2d463ee5de56ba9ed67a"
+  },
+  {
+   "name": "t_3_2.bin",
+   "i": 3,
+   "j": 2,
+   "sha256": "0d36ab959962f45406c2cb1246e7cd894c30378becd8fc7227e4111d1e5c9ef7"
+  },
+  {
+   "name": "t_4_2.bin",
+   "i": 4,
+   "j": 2,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_0_3.bin",
+   "i": 0,
+   "j": 3,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_1_3.bin",
+   "i": 1,
+   "j": 3,
+   "sha256": "422bafdb1a6496e5ba346fd7195d5a2871a2883363ea5c42eec9559d410905e9"
+  },
+  {
+   "name": "t_2_3.bin",
+   "i": 2,
+   "j": 3,
+   "sha256": "e170c57b0fc691c6277baa40ba9a5d5f60beef3277cc7e6416d2397632d4de05"
+  },
+  {
+   "name": "t_3_3.bin",
+   "i": 3,
+   "j": 3,
+   "sha256": "4f6f216aacba6f7fcff24fdc09fd6da0ef25f03ded108305383a2135ae2c6d1c"
+  },
+  {
+   "name": "t_4_3.bin",
+   "i": 4,
+   "j": 3,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_0_4.bin",
+   "i": 0,
+   "j": 4,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_1_4.bin",
+   "i": 1,
+   "j": 4,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_2_4.bin",
+   "i": 2,
+   "j": 4,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_3_4.bin",
+   "i": 3,
+   "j": 4,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  },
+  {
+   "name": "t_4_4.bin",
+   "i": 4,
+   "j": 4,
+   "sha256": "0a4e88ea0abfb9c388e0c1a4c1764da4ffe34e3894e30d080282bef91ee3e617"
+  }
+ ]
+}
