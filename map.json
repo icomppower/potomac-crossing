@@ -26,10 +26,76 @@
   },
   "sources": [
     {
-      "id": "placeholder",
-      "file": "",
-      "licence": "Procedural (Harbor Engine placeholder data)",
-      "url": ""
+      "id": "dc-footprints",
+      "file": "dc-footprints.json",
+      "licence": "CC BY 4.0 — Open Data DC (District of Columbia, Office of the Chief Technology Officer)",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "dc-buildings-3d",
+      "file": "dc-buildings-3d.json",
+      "licence": "CC BY 4.0 — Open Data DC (District of Columbia, Office of the Chief Technology Officer)",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "osm-buildings",
+      "file": "osm-buildings.json",
+      "licence": "ODbL 1.0 — © OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "id": "osm-features",
+      "file": "osm-features.json",
+      "licence": "ODbL 1.0 — © OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "id": "dc-trees",
+      "file": "dc-trees.json",
+      "licence": "CC BY 4.0 — Open Data DC (District of Columbia, Office of the Chief Technology Officer)",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "terrain-3dep",
+      "file": "terrain-3dep.tif",
+      "licence": "Public domain (US Government work, USGS)",
+      "url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+    },
+    {
+      "id": "bathy-ncei",
+      "file": "bathy-ncei.tif",
+      "licence": "Public domain (US Government work, NOAA NCEI)",
+      "url": "https://www.ncei.noaa.gov/products/coastal-elevation-models"
+    },
+    {
+      "id": "noaa-datums",
+      "file": "noaa-datums-8594900.json",
+      "licence": "Public domain (US Government work, NOAA CO-OPS)",
+      "url": "https://tidesandcurrents.noaa.gov/datums.html?id=8594900"
+    },
+    {
+      "id": "naip-dc",
+      "file": "naip-dc.tif",
+      "licence": "Public domain (US Government work, USDA Farm Service Agency NAIP)",
+      "url": "https://naip-usdaonline.hub.arcgis.com/"
+    },
+    {
+      "id": "naip-core",
+      "file": "naip-core.tif",
+      "licence": "Public domain (US Government work, USDA Farm Service Agency NAIP)",
+      "url": "https://naip-usdaonline.hub.arcgis.com/"
+    },
+    {
+      "id": "noaa-enc-landmarks",
+      "file": "noaa-enc-landmarks.json",
+      "licence": "Public domain (US Government work, NOAA Office of Coast Survey)",
+      "url": "https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html"
+    },
+    {
+      "id": "noaa-enc-pylons",
+      "file": "noaa-enc-pylons.json",
+      "licence": "Public domain (US Government work, NOAA Office of Coast Survey)",
+      "url": "https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html"
     }
   ],
   "terrain": {

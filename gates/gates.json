@@ -1,1 +1,1 @@
-{ "required": ["g1"], "advisory": [] }
+{ "required": ["g0", "g1", "g2a", "g2b", "g2c", "g3", "g4", "g5", "g6", "g7"], "advisory": ["g8"] }
