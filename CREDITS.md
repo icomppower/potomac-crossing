@@ -18,6 +18,7 @@ Technology Officer), CC BY 4.0.**
 | `osm-buildings.json` | OpenStreetMap buildings over the slice (Arlington / Virginia bank; heights for redacted DC buildings) (Overpass API) | ODbL 1.0 — © OpenStreetMap contributors |
 | `osm-features.json` | OpenStreetMap landmark and waterfront features: memorials, the Capitol, the Kennedy Center, bridges, piers, ferry terminals, the Reflecting Pool and Tidal Basin (Overpass API) | ODbL 1.0 — © OpenStreetMap contributors |
 | `dc-trees.json` | Open Data DC Trees (DDOT Urban Forestry, Urban_Tree_Canopy layer 11) over the Mall / Tidal Basin / waterfront core: species, height, DBH | CC BY 4.0 — Open Data DC (District of Columbia, Office of the Chief Technology Officer) |
+| `dc-hydro-lines.json` | Open Data DC Planimetrics 2023: hydrography lines (docks and piers, sea walls) (DC GIS Planimetrics_2023 layer 6) | CC BY 4.0 — Open Data DC (District of Columbia, Office of the Chief Technology Officer) |
 | `terrain-3dep.tif` | USGS 3DEP elevation, 3 m resample over the slice (3DEPElevation ImageServer), NAVD88 | Public domain (US Government work, USGS) |
 | `bathy-ncei.tif` | NOAA NCEI DEM mosaic (CUDEM 1/9 arc-second topobathy ncei19_n39x00_w077x25), 3 m resample over the slice (DEM_mosaics/DEM_all ImageServer), NAVD88 | Public domain (US Government work, NOAA NCEI) |
 | `noaa-datums-8594900.json` | NOAA CO-OPS tidal datums, Washington DC station 8594900 (MSL, MLLW relative to NAVD88) | Public domain (US Government work, NOAA CO-OPS) |
@@ -26,6 +27,7 @@ Technology Officer), CC BY 4.0.**
 | `noaa-enc-landmarks.json` | NOAA Electronic Navigational Charts (ENC Direct, harbour scale): charted landmarks — Washington Monument, Capitol dome | Public domain (US Government work, NOAA Office of Coast Survey) |
 | `noaa-enc-pylons.json` | NOAA Electronic Navigational Charts (ENC Direct, harbour scale): bridge pylon / pier areas (Key Bridge, Memorial Bridge and the other Potomac crossings) | Public domain (US Government work, NOAA Office of Coast Survey) |
 | `noaa-enc-bridges.json` | NOAA Electronic Navigational Charts (ENC Direct, harbour scale): bridge areas with charted vertical / horizontal clearances (Key Bridge, Roosevelt Bridge, the 14th Street bridges …) | Public domain (US Government work, NOAA Office of Coast Survey) |
+| `noaa-enc-shoreline.json` | NOAA Electronic Navigational Charts (ENC Direct, harbour scale): shoreline constructions (piers, seawalls) — the Wharf and Georgetown waterfront piers | Public domain (US Government work, NOAA Office of Coast Survey) |
 
 ## Facts cited (not redistributed)
 

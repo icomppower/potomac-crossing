@@ -102,6 +102,18 @@
       "file": "noaa-enc-bridges.json",
       "licence": "Public domain (US Government work, NOAA Office of Coast Survey)",
       "url": "https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html"
+    },
+    {
+      "id": "noaa-enc-shoreline",
+      "file": "noaa-enc-shoreline.json",
+      "licence": "Public domain (US Government work, NOAA Office of Coast Survey)",
+      "url": "https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html"
+    },
+    {
+      "id": "dc-hydro-lines",
+      "file": "dc-hydro-lines.json",
+      "licence": "CC BY 4.0 — Open Data DC (District of Columbia, Office of the Chief Technology Officer)",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "terrain": {
@@ -129,7 +141,17 @@
     "schedule": "ferry/schedule.json",
     "from": "Georgetown (Washington Harbour)",
     "to": "The Wharf",
-    "source": "City Cruises / The Wharf: Potomac Water Taxi, Georgetown ↔ Wharf about 30 min"
+    "source": "City Cruises / The Wharf: Potomac Water Taxi, Georgetown ↔ Wharf about 30 min",
+    "planner": {
+      "fromTerminal": "georgetown",
+      "toTerminal": "wharf",
+      "piersOsm": "osm-features.json",
+      "datums": {
+        "MSL": 1.859,
+        "MLLW": 1.387
+      },
+      "datumNote": "MSL (NAVD88 + 0.047 m, NOAA 8594900); open water also holds at MLLW"
+    }
   },
   "landmarks": [
     {

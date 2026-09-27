@@ -1,0 +1,33 @@
+{
+ "source": "Terminals: OpenStreetMap ferry landings (ODbL). Trip time: The Wharf DC, \"Water Taxi\" (wharfdc.com/getting-here/water-taxi) and City Cruises, \"Potomac Water Taxi\"; facts only",
+ "terminals": {
+  "georgetown": [
+   {
+    "stopId": "osm6746921997",
+    "name": "Georgetown Ferry Landing",
+    "lat": 38.9014547,
+    "lon": -77.0610507,
+    "x": -1625.523,
+    "z": -3010.177
+   }
+  ],
+  "wharf": [
+   {
+    "stopId": "osm6746921958",
+    "name": "The Wharf Ferry Landing",
+    "lat": 38.8797465,
+    "lon": -77.0265597,
+    "x": 1312.134,
+    "z": -533.884
+   }
+  ]
+ },
+ "publishedMinutes": {
+  "toWharf": [
+   30
+  ],
+  "toGeorgetown": [
+   30
+  ]
+ }
+}

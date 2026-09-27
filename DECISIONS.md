@@ -47,3 +47,7 @@ New decisions:
 - **D16** Building fallbacks: OSM `height`, else `building:levels` × 3.5 m (DC floor-to-floor), else 6 m, or 18 m
   for a redacted footprint over 1500 m² (the federal core); redacted buildings use the federal limestone palette.
   `buildings.baseAllRings` is on (courtyards on lower ground). Every fallback is in public/buildings/index.json.
+- **D17** G3 references: the Lincoln and Jefferson Memorials against their roofs in the DC LiDAR; Key Bridge by
+  its deck line against the charted NOAA outline (no open source publishes its pier positions, so the model
+  spaces its seven arches evenly over the river); the Wharf pier against DC's 2023 planimetric "Dock or Pier"
+  lines (harbour-scale charts predate the 2017 Wharf piers).

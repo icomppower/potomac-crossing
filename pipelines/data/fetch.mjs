@@ -147,6 +147,17 @@ export const SOURCES = [
     title: 'NOAA Electronic Navigational Charts (ENC Direct, harbour scale): bridge areas with charted vertical / horizontal clearances (Key Bridge, Roosevelt Bridge, the 14th Street bridges …)',
     url: `https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/141/query?` + new URLSearchParams({ geometry: `${B.west},${B.south},${B.east},${B.north}`, geometryType: 'esriGeometryEnvelope', inSR: '4326', outSR: '4326', outFields: '*', returnGeometry: 'true', orderByFields: 'OBJL', f: 'json' }),
   },
+  {
+    file: 'noaa-enc-shoreline.json', key: 'noaa-enc-shoreline', ...USPD('NOAA Office of Coast Survey', 'https://nauticalcharts.noaa.gov/data/enc-direct-to-gis.html'),
+    title: 'NOAA Electronic Navigational Charts (ENC Direct, harbour scale): shoreline constructions (piers, seawalls) — the Wharf and Georgetown waterfront piers',
+    url: `https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/85/query?` + new URLSearchParams({ geometry: `${B.west},${B.south},${B.east},${B.north}`, geometryType: 'esriGeometryEnvelope', inSR: '4326', outSR: '4326', outFields: '*', returnGeometry: 'true', f: 'json' }),
+  },
+  {
+    file: 'dc-hydro-lines.json', key: 'dc-hydro-lines', ...CCBY,
+    title: 'Open Data DC Planimetrics 2023: hydrography lines (docks and piers, sea walls) (DC GIS Planimetrics_2023 layer 6)',
+    url: `${DCGIS}/Planimetrics_2023/MapServer/6`,
+    fetch: arcgisPaged(`${DCGIS}/Planimetrics_2023/MapServer/6`, B, { outFields: 'OBJECTID,FEATURECODE,DESCRIPTION,CAPTUREYEAR' }),
+  },
 ];
 
 if (isMain(import.meta.url)) await fetchSources(SOURCES, { userAgent: 'potomac-crossing-data-fetch/1.0' });
