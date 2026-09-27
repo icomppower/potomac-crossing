@@ -7,6 +7,8 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { runCleanGate } from 'harbor-engine/gates/lib/clean.mjs';
 import { root } from 'harbor-engine/gates/lib/tiles.mjs';
+import 'harbor-engine/tools/lib/configured.mjs';
+import { VIEWS, poseFor } from './lib/views.mjs';
 
 // Bay Crossing's names, coordinates and data files: none may appear in this title (this file excepted)
 const SF = [ 'san francisco', 'sausalito', 'golden gate', 'embarcadero', 'alcatraz', 'coit tower', 'transamerica', 'ferry building', 'bay crossing', 'sf-buildings', 'ggt-gtfs', '9414290', '549504', '4186800', '-122.' ];
@@ -27,5 +29,7 @@ export function sfContent( extra = {} ) {
 
 }
 
-runCleanGate( { label: 'G1', extra: [ [ 'sf-content', () => sfContent() ] ],
+// the render check looks down the Potomac from off the Kennedy Center (open water: gates/lib/views.mjs)
+const P = await poseFor( VIEWS.find( ( v ) => v[ 0 ] === 'potomac-kennedy' ) );
+runCleanGate( { label: 'G1', pose: { x: P.x, z: P.z, yaw: P.yaw }, extra: [ [ 'sf-content', () => sfContent() ] ],
 	negatives: [ [ 'SF content planted in src/', 'sf-content:', () => sfContent( { 'src/planted.js': '// the ferry to Sausalito\n' } ) ] ] } );

@@ -1,4 +1,4 @@
-// G6 Baseline-GPU compile (from the Bay Crossing Chrome crash): every pipeline compiles and every frame validates
+// G6 Baseline-GPU compile (the 2026-09-26 Chrome setPipeline crash): every pipeline compiles and every frame validates
 // in headless Dawn behind an adapter with only WebGPU's default limits and no optional features — the real App on
 // this title's data, low / mobile / high tiers, water-taxi mode and free flight over the fixed views; a failed
 // pipeline never reaches setPipeline. The machinery is the engine's (harbor-engine/gates/lib/baseline.mjs, E2).
