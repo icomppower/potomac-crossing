@@ -24,7 +24,7 @@ const lm = ( slug ) => LM.find( ( l ) => l.slug === slug );
 
 // [ name, eye lat, lon, eye height above the water, landmark slug, landmark top above its ground, water level ]
 const SCENES = [
-	[ 'reflecting-pool', 38.88935, - 77.04880, 2.2, 'washington-monument', 169.3, pool.level ],
+	[ 'reflecting-pool', 38.88935, - 77.04775, 2.2, 'washington-monument', 169.3, pool.level ],
 	[ 'potomac', 38.89330, - 77.06080, 3.0, 'kennedy-center', 35.0, 0 ],
 ];
 const NIGHT = 21.0; // local solar time: the sun ~20° below the horizon in late September

@@ -9,9 +9,9 @@
 | G2c Landmarks + LOD | PASS | 2026-09-27 | 7 Blender landmarks × 3 LODs at published heights (Monument 169.3, Capitol 87.8, Lincoln 30.2, Jefferson 39.3, KC LiDAR 48, Key Br. clearance 18.5); caps frozen city 344,954 / frame 1,882,779 / 251 draws / tile 56,500; 7/7 negatives |
 | G3 Georeference | PASS | 2026-09-27 | 6 control points 0.9–6.8 m vs NOAA ENC (Monument, Capitol dome, Key Bridge outline), DC LiDAR (Lincoln, Jefferson), DC 2023 docks (Wharf berth); tolerance 10 m frozen; 2/2 shifted datasets fail |
 | G4 Water taxi | PASS | 2026-09-27 | Georgetown → Wharf (9.45 km round Hains Point) in 21.45 min (range 12.75–30), min 3.17 m under a 1.5 m draft, 0 contacts; clear under Roosevelt 7.3, 14th St 5.4 (air draft 4.6), Memorial model 7.7, Key 18.5 m; 4/4 negatives |
-| G5 M4 budget | — | — | |
-| G6 Baseline-GPU compile | — | — | |
-| G7 Reflections | — | — | |
+| G5 M4 budget | PASS | 2026-09-27 | 53.7 fps p95 @1080p low (floor 43 frozen), GPU memory 680 MB (cap 851), 0 swap-outs; 3/3 negatives |
+| G6 Baseline-GPU compile | PASS | 2026-09-27 | low/mobile/high × taxi/fly at WebGPU default limits: 0 failed pipelines (incl. the new water-level texture); 6/6 negatives |
+| G7 Reflections | PASS | 2026-09-27 | night: Reflecting Pool reflection 61.8 (threshold 31.6 frozen, 1.4 without reflections), Potomac 39.2 (33.0, 26.8 without); floodlit Monument / Kennedy Center; 1/1 negative |
 | G8 Look (advisory) | — | — | |
 
 ## Current

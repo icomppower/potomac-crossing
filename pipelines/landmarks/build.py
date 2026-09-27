@@ -183,8 +183,7 @@ def lincoln_memorial(L, lod):
         B.box('marble', cx, cy, z0, ln, wd, zc - z0, ang)
     B.box('marble', cx, cy, zc, ln + 1.0, wd + 1.0, 4.0, ang)                   # entablature and frieze
     B.box('marble', cx, cy, zc + 4.0, ln - 6.0, wd - 6.0, g + 30.2 - zc - 4.0, ang)  # attic
-    if lod < 2 and L.get('site'):                                               # the terraced base / approach
-        B.prism('granite', [bl(p) for p in L['site']], g - 6.0, g - 0.5)
+    # (the terraced grounds and approach steps are in the LiDAR terrain; no separate site slab)
     return B
 
 def jefferson_memorial(L, lod):

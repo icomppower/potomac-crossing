@@ -75,15 +75,15 @@
    "lods": [
     {
      "name": "lincoln-memorial_lod0.glb",
-     "triangles": 1495,
-     "meshes": 2,
-     "sha256": "91e3bcfe343964663fc71714f60ec1fe1572e05739023f9b82bdcecc1da1db26"
+     "triangles": 1272,
+     "meshes": 1,
+     "sha256": "f5f7dba7e49f39ce28f2446b8ac10a26b66638c688c53b02d9cf2caff06cef4b"
     },
     {
      "name": "lincoln-memorial_lod1.glb",
-     "triangles": 271,
-     "meshes": 2,
-     "sha256": "d21a8c7d4af048f163161129462179b6e636f45611f9c4458d0ef9f521fec645"
+     "triangles": 48,
+     "meshes": 1,
+     "sha256": "c00ac0f079454b9f7a2333bbbbf77a17338434173231c8637c4523b33fa9e736"
     },
     {
      "name": "lincoln-memorial_lod2.glb",
