@@ -1,7 +1,10 @@
 // Potomac Crossing's pipeline hooks (Harbor Engine contract, harbor-engine/docs/ENGINE.md). Node only.
-//   collectBuildings( kit )   read the title's footprints + heights from kit.readJSON( file ) and call
-//                             kit.finish( id, polys, roofAbove, roofAbs, style ) once per building
-//   prepareLandmarks( ctx )   Blender inputs for the title's landmark script (map.json `landmarkScript`)
+//   collectBuildings( kit )    DC footprints + LiDAR heights; the redacted-LiDAR fallback (OSM / logged default)
+//   prepareLandmarks( ctx )    Blender inputs for pipelines/landmarks/build.py
+//   shapeTerrain( kit )        authored shallow basins (Tidal Basin, reflecting pools)
+//   waterBodies( kit )         still pools and the tidal basin for the water mask
+export { shapeTerrain, waterBodies } from './pipelines/terrain.mjs';
+
 export function collectBuildings() {
   return { log: { placeholder: 0 }, excluded: [] };
 }

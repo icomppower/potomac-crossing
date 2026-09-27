@@ -22,9 +22,11 @@ SPEC §3 (Notion), applied as written:
 
 New decisions:
 
-- **D11** World frame: UTM 18N (EPSG:26918/32618 coordinates, WGS84), origin E 323000 N 4306350, 6.6 km square
-  (3 m grid, 2200², 11 × 11 tiles of 600 m): Key Bridge / Rosslyn to the Capitol, Georgetown to the Wharf and the
-  Arlington bank. Heights: local MSL at NOAA station 8594900 (Washington, DC).
+- **D11** World frame: UTM 18N (EPSG:32618, WGS84), origin E 322900 N 4304850, 8.4 km square (3 m grid, 2800²,
+  14 × 14 tiles of 600 m): Key Bridge / Rosslyn to the Capitol, Georgetown to Hains Point, and the Arlington bank.
+  First set at 6.6 km; widened south when G2a's river-connectivity check showed the Washington Channel (and so the
+  Wharf) joins the Potomac only at Hains Point, outside the first square. Heights: local MSL at NOAA station
+  8594900 (Washington, DC).
 - **D12** Vessel: *Potomac Taxi I* (Potomac Riverboat Co. / City Cruises), one of four BMT-designed Metal Shark
   aluminium catamarans on the Wharf–Georgetown water taxi: 88 ft (26.8 m) LOA, 149 passengers, 24 kn, twin Scania
   DI13 with propellers (Metal Shark 2017-10-16 release; WorkBoat; PropTalk). Beam 7 m from its AIS record

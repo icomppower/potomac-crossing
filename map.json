@@ -5,24 +5,24 @@
     "crs": "EPSG:32618 (WGS84 / UTM zone 18N), metres; heights local MSL (NOAA 8594900)",
     "utmZone": 18,
     "hemisphere": "N",
-    "originE": 323000,
-    "originN": 4306350,
-    "size": 6600
+    "originE": 322900,
+    "originN": 4304850,
+    "size": 8400
   },
   "bbox": {
-    "south": 38.868,
-    "west": -77.08,
-    "north": 38.9275,
-    "east": -77.0035
+    "south": 38.8355,
+    "west": -77.0915,
+    "north": 38.914,
+    "east": -76.9915
   },
   "slice": {
     "extent": {
-      "minE": 319700,
-      "minN": 4303050,
-      "maxE": 326300,
-      "maxN": 4309650
+      "minE": 318700,
+      "minN": 4300650,
+      "maxE": 327100,
+      "maxN": 4309050
     },
-    "note": "Key Bridge / Rosslyn to the Capitol, Georgetown to the Wharf, the Arlington bank (D2, D11)"
+    "note": "Key Bridge / Rosslyn to the Capitol, Georgetown to Hains Point and the Wharf, the Arlington bank (D2, D11)"
   },
   "sources": [
     {
