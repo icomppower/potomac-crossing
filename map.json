@@ -125,7 +125,36 @@
     "to": "The Wharf",
     "source": "City Cruises / The Wharf: Potomac Water Taxi, Georgetown ↔ Wharf about 30 min"
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "slug": "washington-monument",
+      "name": "Washington Monument"
+    },
+    {
+      "slug": "capitol",
+      "name": "United States Capitol"
+    },
+    {
+      "slug": "lincoln-memorial",
+      "name": "Lincoln Memorial"
+    },
+    {
+      "slug": "jefferson-memorial",
+      "name": "Thomas Jefferson Memorial"
+    },
+    {
+      "slug": "kennedy-center",
+      "name": "Kennedy Center"
+    },
+    {
+      "slug": "key-bridge",
+      "name": "Francis Scott Key Bridge"
+    },
+    {
+      "slug": "memorial-bridge",
+      "name": "Arlington Memorial Bridge"
+    }
+  ],
   "water": {
     "preset": "calm-river",
     "swellDir": [
@@ -141,23 +170,118 @@
     "walls": {
       "tower": [
         [
+          176,
+          172,
+          164
+        ],
+        [
           150,
-          156,
-          162
+          158,
+          166
+        ],
+        [
+          120,
+          132,
+          144
+        ],
+        [
+          190,
+          184,
+          172
         ]
       ],
       "mid": [
         [
+          208,
+          198,
+          178
+        ],
+        [
+          196,
+          188,
+          172
+        ],
+        [
           182,
-          178,
-          170
+          176,
+          166
+        ],
+        [
+          166,
+          160,
+          152
+        ],
+        [
+          150,
+          96,
+          76
+        ],
+        [
+          138,
+          86,
+          68
+        ],
+        [
+          120,
+          132,
+          142
+        ],
+        [
+          214,
+          208,
+          196
+        ],
+        [
+          188,
+          170,
+          140
         ]
       ],
       "house": [
         [
+          158,
+          82,
+          64
+        ],
+        [
+          142,
+          74,
+          60
+        ],
+        [
+          170,
+          96,
+          72
+        ],
+        [
+          196,
+          176,
+          150
+        ],
+        [
           214,
-          206,
-          192
+          204,
+          184
+        ],
+        [
+          128,
+          70,
+          58
+        ],
+        [
+          186,
+          120,
+          90
+        ],
+        [
+          222,
+          214,
+          198
+        ],
+        [
+          160,
+          150,
+          140
         ]
       ],
       "pier": [
@@ -165,15 +289,94 @@
           210,
           200,
           178
+        ],
+        [
+          196,
+          190,
+          180
+        ]
+      ],
+      "federal": [
+        [
+          226,
+          220,
+          206
+        ],
+        [
+          214,
+          208,
+          194
+        ],
+        [
+          232,
+          228,
+          218
+        ],
+        [
+          200,
+          192,
+          176
+        ]
+      ],
+      "arlington": [
+        [
+          178,
+          168,
+          154
+        ],
+        [
+          150,
+          100,
+          80
+        ],
+        [
+          130,
+          142,
+          152
+        ],
+        [
+          196,
+          190,
+          178
+        ],
+        [
+          164,
+          112,
+          88
         ]
       ]
     },
     "roofs": {
       "city": [
         [
+          92,
+          92,
+          92
+        ],
+        [
           118,
           116,
           110
+        ],
+        [
+          138,
+          136,
+          128
+        ],
+        [
+          104,
+          100,
+          96
+        ],
+        [
+          156,
+          152,
+          144
+        ],
+        [
+          120,
+          88,
+          72
         ]
       ]
     }
@@ -229,7 +432,9 @@
   "capabilities": [
     "water",
     "vessel",
-    "route"
+    "route",
+    "buildings",
+    "landmarks"
   ],
   "games": {
     "default": "sightseeing",
@@ -237,5 +442,8 @@
       "sightseeing"
     ]
   },
-  "streaming": false
+  "streaming": false,
+  "buildings": {
+    "baseAllRings": true
+  }
 }

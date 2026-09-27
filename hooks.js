@@ -4,10 +4,7 @@
 //   shapeTerrain( kit )        authored shallow basins (Tidal Basin, reflecting pools)
 //   waterBodies( kit )         still pools and the tidal basin for the water mask
 export { shapeTerrain, waterBodies } from './pipelines/terrain.mjs';
-
-export function collectBuildings() {
-  return { log: { placeholder: 0 }, excluded: [] };
-}
+export { collectBuildings } from './pipelines/buildings.mjs';
 
 export function prepareLandmarks() {
   return { note: 'placeholder: no landmarks', landmarks: [] };

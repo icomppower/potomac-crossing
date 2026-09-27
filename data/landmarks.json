@@ -1,0 +1,12 @@
+{
+  "note": "Landmarks modelled separately (D4, G2c). A building footprint (DC or OSM) containing an anchor with replacesFootprint is left out of the extruded tiles. Anchors: WGS84.",
+  "landmarks": [
+    { "name": "Washington Monument", "lat": 38.88948, "lon": -77.03524, "replacesFootprint": true },
+    { "name": "United States Capitol", "lat": 38.88990, "lon": -77.00910, "replacesFootprint": true },
+    { "name": "Lincoln Memorial", "lat": 38.88931, "lon": -77.05017, "replacesFootprint": true },
+    { "name": "Thomas Jefferson Memorial", "lat": 38.88140, "lon": -77.03650, "replacesFootprint": true },
+    { "name": "John F. Kennedy Center for the Performing Arts", "lat": 38.89567, "lon": -77.05560, "replacesFootprint": true },
+    { "name": "Francis Scott Key Bridge", "lat": 38.90190, "lon": -77.07000, "replacesFootprint": false },
+    { "name": "Arlington Memorial Bridge", "lat": 38.88710, "lon": -77.05690, "replacesFootprint": false }
+  ]
+}

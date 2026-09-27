@@ -38,3 +38,12 @@ New decisions:
   has no height and the DC surface models are published only as rendered map services. Inside the Secret Service
   redaction (only ground returns kept) a building has no LiDAR height: OSM `height` / `building:levels`, else a
   logged default, and every such building is logged (hooks.js).
+- **D14** Trees and 2 m roof imagery cover the Mall / Tidal Basin / waterfront core (38.874–38.896 N,
+  77.060–77.005 W): 42,872 DC trees incl. the Mall elms and the Tidal Basin cherries; 1 m NAIP exceeds the
+  service's size limit, so 2 m. Roofs elsewhere take 4 m NAIP.
+- **D15** Authored shallow basins (terrain hooks, logged by the build): Tidal Basin bed 3.0 m below MSL with a
+  25 m shelf (the topobathy has only its surface); the reflecting pools at their LiDAR water level (Lincoln 1.97 m,
+  Capitol 2.91 m above MSL) with 0.6 m / 0.5 m beds.
+- **D16** Building fallbacks: OSM `height`, else `building:levels` × 3.5 m (DC floor-to-floor), else 6 m, or 18 m
+  for a redacted footprint over 1500 m² (the federal core); redacted buildings use the federal limestone palette.
+  `buildings.baseAllRings` is on (courtyards on lower ground). Every fallback is in public/buildings/index.json.
