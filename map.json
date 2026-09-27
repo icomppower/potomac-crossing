@@ -440,16 +440,120 @@
   "places": [],
   "waypoints": [
     {
-      "name": "Island",
+      "name": "Lincoln Memorial steps",
       "eye": [
-        700,
-        60,
-        300
+        -620,
+        26,
+        -1636
       ],
       "at": [
-        0,
+        583,
+        90,
+        -1630
+      ]
+    },
+    {
+      "name": "Reflecting Pool",
+      "eye": [
+        -420,
+        6,
+        -1600
+      ],
+      "at": [
+        583,
+        60,
+        -1630
+      ]
+    },
+    {
+      "name": "Washington Monument",
+      "eye": [
+        480,
+        60,
+        -1520
+      ],
+      "at": [
+        583,
+        120,
+        -1630
+      ]
+    },
+    {
+      "name": "Tidal Basin",
+      "eye": [
+        200,
+        8,
+        -980
+      ],
+      "at": [
+        450,
+        25,
+        -739
+      ]
+    },
+    {
+      "name": "Capitol",
+      "eye": [
+        2500,
+        40,
+        -1560
+      ],
+      "at": [
+        2860,
+        60,
+        -1617
+      ]
+    },
+    {
+      "name": "Kennedy Center & the river",
+      "eye": [
+        -1350,
+        12,
+        -2150
+      ],
+      "at": [
+        -1180,
+        25,
+        -2383
+      ]
+    },
+    {
+      "name": "Georgetown landing",
+      "eye": [
+        -1500,
         20,
-        0
+        -2900
+      ],
+      "at": [
+        -1634,
+        5,
+        -3004
+      ]
+    },
+    {
+      "name": "The Wharf",
+      "eye": [
+        1500,
+        30,
+        -300
+      ],
+      "at": [
+        1312,
+        5,
+        -534
+      ]
+    },
+    {
+      "name": "Key Bridge",
+      "eye": [
+        -2700,
+        15,
+        -3300
+      ],
+      "at": [
+        -2375,
+        20,
+        -3163
       ]
     }
   ],
@@ -476,5 +580,20 @@
   "streaming": false,
   "buildings": {
     "baseAllRings": true
+  },
+  "floodlight": {
+    "materials": [
+      "marble",
+      "sandstone",
+      "dome",
+      "granite",
+      "concrete"
+    ],
+    "color": [
+      1,
+      0.92,
+      0.78
+    ],
+    "intensity": 1.5
   }
 }
